@@ -58,14 +58,14 @@ nav {
 
 #aboutLink{
 	border-right-style:solid;
-	border-right-color:grey;
+	border-right-color:#dddddd;
 	border-right-width:1px;
 	padding-right:3px;
 }
 
 #portfolioLink{
 	border-right-style:solid;
-	border-right-color:grey;
+	border-right-color:#dddddd;
 	border-right-width:1px;
 	padding-right:3px;
 }
@@ -79,14 +79,15 @@ nav {
 
 
 .container {
+	
 	float: left;
-	width: 400px;
+	width: 500px;
 	margin-top:100px;
 	margin-left: 50px;
 	background: #ffffff;
 	border-style: solid;
 	border-width: 0px;
-	border-color: black;
+	border-color: #dddddd;
 	padding: 10px;
 }
 
@@ -98,15 +99,17 @@ h2 {
 	background: #ffffff;
 	color:#4aaaa5;
 	border-bottom-style: solid;
-	border-bottom-color: grey;
+	border-bottom-color: #dddddd;
 	border-bottom-width: 1px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-bottom:10px;
 }
 
 #AJ{
+	width: 200px;
+	height: 200px;
 	padding-left: 5px;
-	padding-right: :10px;
+	padding-right: :30px;
 }
 
 p{
@@ -133,15 +136,69 @@ p{
 	background: #ffffff;
 	margin-top:100px;
 	border-style: solid;
-	border-color: black;
+	border-color: #dddddd;
 	border-width: 0px;
 }
 
 .block{
-	position: relative;
+	float: left;
+	position:absolute
 	text-align: center;
 	margin: 20px;
-	width: 25%;
+	width: 200px;
+	height: 150px;
+}
+h4{
+	position: absolute; 
+   	font-size:20px;
+   	background-color: #4aaaa5;
+   color: white;
+   font-family: 'Georgia', Times, Times New Roman, serif;
+   padding-top: 15px;
+   padding-top: 15px;
+
+   
+
+}
+
+#hangman{
+	left:235px;
+	top:350px;
+	padding-left: 56px;
+   padding-right: 56px;
+
+}
+#rpg{
+	left:470px;
+	top:350px;
+	padding-left: 54px;
+   padding-right: 54px;
+}
+
+#trivia{
+	left:235px;
+	top:550px;
+	padding-left: 56px;
+   padding-right: 56px;
+}
+
+}
+
+#rutgers{
+	left:435px;
+	top:550px;
+	padding-left: 56px;
+   padding-right: 56px;
+}
+
+}
+#rps{
+	left:235px;
+	bottom: 100px;
+	padding-left: 56px;
+   padding-right: 56px;
+}
+
 }
 
 h3{
@@ -149,7 +206,7 @@ h3{
 	font-size:25px;
 	text-align: center;
 	border-bottom-style: solid;
-	border-bottom-color: grey;
+	border-bottom-color: #dddddd;
 	border-bottom-width: 1px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-bottom: 10px;
@@ -163,14 +220,14 @@ h3{
 
 .site-footer {
 	clear:both;
-	position : absolute;
+	position : fixed;
 	padding-bottom: 40px;
 	padding-top: 40px;
     bottom : 0;
     height : 40px;
     margin-top : 40px;
     width:100%;
-	background: grey;
+	background: #666666;
 	color: white;
 	text-align: center;
 	border-top-style:solid;
